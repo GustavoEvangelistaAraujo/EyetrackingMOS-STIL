@@ -2,23 +2,15 @@
 
 ## Revisão sobre métricas subjetivas para análise de sistemas de TTS
 
-\begin{table}[h]
-    \centering
-        \caption{Mean Opinion Score (MOS) para avaliação de naturalidade}
-        \begin{tabular}{lll}
-            \hline
-            \textbf{Avaliação} & \textbf{Qualidade} & \textbf{Nível de distorção}\\
-            \hline
-            5 & Excelente & Extremamente natural\\
-            4 & Boa & Muito natural\\
-            3 & Razoável & Razoavelmente natural\\
-            2 & Pobre & Pouco natural\\
-            1 & Ruim & Nada natural\\
-            \hline
-        \end{tabular}
-        \label{tab:MOS}
-\end{table}
+Um padrão de referência de análise para descrever pontuação MOS para os avaliadores é apresentado na tabela abaixo [Loizou, 2011]:
 
+| **Rating** | **Speech quality** (Qualidade da fala) | **Level of distortion** (Nível de distorção)           |
+|------------|----------------------------------------|-------------------------------------------------------|
+| 5          | Excellent (Excelente)                  | Imperceptible (Imperceptível)                         |
+| 4          | Good (Boa)                             | Just perceptible, but not annoying (Apenas perceptível, mas não incômoda) |
+| 3          | Fair (Razoável)                        | Perceptible and slightly annoying (Perceptível e ligeiramente incômoda) |
+| 2          | Poor (Ruim)                            | Annoying, but not objectionable (Incômoda, mas aceitável) |
+| 1          | Bad (Péssima)                          | Very annoying and objectionable (Muito incômoda e inaceitável) |
 ---
 
 ## Materiais e métodos
@@ -63,7 +55,6 @@ A imagem abaixo corresponde a interface que o usuário recebe durante os estímu
 
 ![Interface do Estímulo](Figs/Fig-interface_estimulo.png)
 
-
 ####Estímulos
 
 Os arquivos de áudio presentes na pasta `stimuli` são utilizados durante os testes.
@@ -73,3 +64,5 @@ Os arquivos de áudio presentes na pasta `stimuli` são utilizados durante os te
 ## Referências
 
 - Bain, M. et al. WhisperX: Multilingual Speech Recognition and Alignment, 2022.
+
+- Loizou, P. C. Speech Quality Assessment, pages 623–654, 2011. Springer Berlin Heidelberg, Berlin, Heidelberg.

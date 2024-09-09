@@ -45,17 +45,9 @@ Tabela de configuração de treinamento:
 
 ### Experimentos
 
-O modelo foi avaliado utilizando o MOS e o EyetrackingMOS para medir a qualidade e percepção dos estímulos sonoros. A figura abaixo demonstra o fluxo da avaliação:
-
-####Interface
-
-A imagem abaixo corresponde a interface que o usuário recebe durante os estímulos de áudio masculinos e femininos, respectivamente, como demonstrado no artigo.
+O modelo foi avaliado utilizando o MOS e o EyetrackingMOS para medir a qualidade e percepção dos estímulos sonoros. A imagem abaixo corresponde a interface que o usuário recebe durante os estímulos de áudio masculinos e femininos, respectivamente, como demonstrado no artigo. Os arquivos de áudio presentes na pasta `stimuli` são utilizados durante os testes.
 
 ![Interface do Estímulo](Figs/Fig-interface_estimulo.png)
-
-####Estímulos
-
-Os arquivos de áudio presentes na pasta `stimuli` são utilizados durante os testes.
 
 ---
 
